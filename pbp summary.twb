@@ -1,0 +1,1830 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.23.0112.0407                               -->
+<workbook original-version='18.1' source-build='2022.3.3 (20223.23.0112.0407)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='2021-07-15_mil-vs-phoenix_pbp' inline='true' name='federated.0mlfw7q0av4r8112u0umu0mcslp3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2021-07-15_mil-vs-phoenix_pbp' name='textscan.1wjodti1i3dry40zstp930boh1mm'>
+            <connection class='textscan' directory='C:/Users/kkhitalishvili/OneDrive - National Basketball Association/Desktop/pbp' filename='2021-07-15_mil-vs-phoenix_pbp.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1wjodti1i3dry40zstp930boh1mm' name='2021-07-15_mil-vs-phoenix_pbp.csv' table='[2021-07-15_mil-vs-phoenix_pbp#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='actionNumber' ordinal='1' />
+            <column datatype='string' name='clock' ordinal='2' />
+            <column datatype='datetime' name='timeActual' ordinal='3' />
+            <column datatype='integer' name='period' ordinal='4' />
+            <column datatype='string' name='periodType' ordinal='5' />
+            <column datatype='string' name='actionType' ordinal='6' />
+            <column datatype='string' name='subType' ordinal='7' />
+            <column datatype='string' name='qualifiers' ordinal='8' />
+            <column datatype='integer' name='personId' ordinal='9' />
+            <column datatype='real' name='x' ordinal='10' />
+            <column datatype='real' name='y' ordinal='11' />
+            <column datatype='integer' name='possession' ordinal='12' />
+            <column datatype='integer' name='scoreHome' ordinal='13' />
+            <column datatype='integer' name='scoreAway' ordinal='14' />
+            <column datatype='datetime' name='edited' ordinal='15' />
+            <column datatype='integer' name='orderNumber' ordinal='16' />
+            <column datatype='real' name='xLegacy' ordinal='17' />
+            <column datatype='real' name='yLegacy' ordinal='18' />
+            <column datatype='integer' name='isFieldGoal' ordinal='19' />
+            <column datatype='string' name='side' ordinal='20' />
+            <column datatype='string' name='description' ordinal='21' />
+            <column datatype='string' name='personIdsFilter' ordinal='22' />
+            <column datatype='real' name='teamId' ordinal='23' />
+            <column datatype='string' name='teamTricode' ordinal='24' />
+            <column datatype='string' name='descriptor' ordinal='25' />
+            <column datatype='string' name='jumpBallRecoveredName' ordinal='26' />
+            <column datatype='real' name='jumpBallRecoverdPersonId' ordinal='27' />
+            <column datatype='string' name='playerName' ordinal='28' />
+            <column datatype='string' name='playerNameI' ordinal='29' />
+            <column datatype='string' name='jumpBallWonPlayerName' ordinal='30' />
+            <column datatype='real' name='jumpBallWonPersonId' ordinal='31' />
+            <column datatype='string' name='jumpBallLostPlayerName' ordinal='32' />
+            <column datatype='real' name='jumpBallLostPersonId' ordinal='33' />
+            <column datatype='real' name='shotDistance' ordinal='34' />
+            <column datatype='string' name='shotResult' ordinal='35' />
+            <column datatype='real' name='pointsTotal' ordinal='36' />
+            <column datatype='string' name='assistPlayerNameInitial' ordinal='37' />
+            <column datatype='real' name='assistPersonId' ordinal='38' />
+            <column datatype='real' name='assistTotal' ordinal='39' />
+            <column datatype='real' name='shotActionNumber' ordinal='40' />
+            <column datatype='real' name='reboundTotal' ordinal='41' />
+            <column datatype='real' name='reboundDefensiveTotal' ordinal='42' />
+            <column datatype='real' name='reboundOffensiveTotal' ordinal='43' />
+            <column datatype='real' name='turnoverTotal' ordinal='44' />
+            <column datatype='string' name='stealPlayerName' ordinal='45' />
+            <column datatype='real' name='stealPersonId' ordinal='46' />
+            <column datatype='real' name='officialId' ordinal='47' />
+            <column datatype='real' name='foulPersonalTotal' ordinal='48' />
+            <column datatype='real' name='foulTechnicalTotal' ordinal='49' />
+            <column datatype='string' name='foulDrawnPlayerName' ordinal='50' />
+            <column datatype='real' name='foulDrawnPersonId' ordinal='51' />
+            <column datatype='string' name='blockPlayerName' ordinal='52' />
+            <column datatype='real' name='blockPersonId' ordinal='53' />
+            <column datatype='string' name='value' ordinal='54' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1wjodti1i3dry40zstp930boh1mm' name='2021-07-15_mil-vs-phoenix_pbp.csv' table='[2021-07-15_mil-vs-phoenix_pbp#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='actionNumber' ordinal='1' />
+            <column datatype='string' name='clock' ordinal='2' />
+            <column datatype='datetime' name='timeActual' ordinal='3' />
+            <column datatype='integer' name='period' ordinal='4' />
+            <column datatype='string' name='periodType' ordinal='5' />
+            <column datatype='string' name='actionType' ordinal='6' />
+            <column datatype='string' name='subType' ordinal='7' />
+            <column datatype='string' name='qualifiers' ordinal='8' />
+            <column datatype='integer' name='personId' ordinal='9' />
+            <column datatype='real' name='x' ordinal='10' />
+            <column datatype='real' name='y' ordinal='11' />
+            <column datatype='integer' name='possession' ordinal='12' />
+            <column datatype='integer' name='scoreHome' ordinal='13' />
+            <column datatype='integer' name='scoreAway' ordinal='14' />
+            <column datatype='datetime' name='edited' ordinal='15' />
+            <column datatype='integer' name='orderNumber' ordinal='16' />
+            <column datatype='real' name='xLegacy' ordinal='17' />
+            <column datatype='real' name='yLegacy' ordinal='18' />
+            <column datatype='integer' name='isFieldGoal' ordinal='19' />
+            <column datatype='string' name='side' ordinal='20' />
+            <column datatype='string' name='description' ordinal='21' />
+            <column datatype='string' name='personIdsFilter' ordinal='22' />
+            <column datatype='real' name='teamId' ordinal='23' />
+            <column datatype='string' name='teamTricode' ordinal='24' />
+            <column datatype='string' name='descriptor' ordinal='25' />
+            <column datatype='string' name='jumpBallRecoveredName' ordinal='26' />
+            <column datatype='real' name='jumpBallRecoverdPersonId' ordinal='27' />
+            <column datatype='string' name='playerName' ordinal='28' />
+            <column datatype='string' name='playerNameI' ordinal='29' />
+            <column datatype='string' name='jumpBallWonPlayerName' ordinal='30' />
+            <column datatype='real' name='jumpBallWonPersonId' ordinal='31' />
+            <column datatype='string' name='jumpBallLostPlayerName' ordinal='32' />
+            <column datatype='real' name='jumpBallLostPersonId' ordinal='33' />
+            <column datatype='real' name='shotDistance' ordinal='34' />
+            <column datatype='string' name='shotResult' ordinal='35' />
+            <column datatype='real' name='pointsTotal' ordinal='36' />
+            <column datatype='string' name='assistPlayerNameInitial' ordinal='37' />
+            <column datatype='real' name='assistPersonId' ordinal='38' />
+            <column datatype='real' name='assistTotal' ordinal='39' />
+            <column datatype='real' name='shotActionNumber' ordinal='40' />
+            <column datatype='real' name='reboundTotal' ordinal='41' />
+            <column datatype='real' name='reboundDefensiveTotal' ordinal='42' />
+            <column datatype='real' name='reboundOffensiveTotal' ordinal='43' />
+            <column datatype='real' name='turnoverTotal' ordinal='44' />
+            <column datatype='string' name='stealPlayerName' ordinal='45' />
+            <column datatype='real' name='stealPersonId' ordinal='46' />
+            <column datatype='real' name='officialId' ordinal='47' />
+            <column datatype='real' name='foulPersonalTotal' ordinal='48' />
+            <column datatype='real' name='foulTechnicalTotal' ordinal='49' />
+            <column datatype='string' name='foulDrawnPlayerName' ordinal='50' />
+            <column datatype='real' name='foulDrawnPersonId' ordinal='51' />
+            <column datatype='string' name='blockPlayerName' ordinal='52' />
+            <column datatype='real' name='blockPersonId' ordinal='53' />
+            <column datatype='string' name='value' ordinal='54' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actionNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[actionNumber]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>actionNumber</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clock</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[clock]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>clock</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timeActual</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[timeActual]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>timeActual</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>period</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[period]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>period</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>periodType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[periodType]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>periodType</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actionType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[actionType]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>actionType</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subType]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>subType</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qualifiers</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[qualifiers]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>qualifiers</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>personId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[personId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>personId</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[x]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>x</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[y]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>y</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>possession</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[possession]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>possession</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scoreHome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scoreHome]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>scoreHome</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scoreAway</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scoreAway]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>scoreAway</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>edited</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[edited]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>edited</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>orderNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[orderNumber]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>orderNumber</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xLegacy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xLegacy]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>xLegacy</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yLegacy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yLegacy]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>yLegacy</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isFieldGoal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[isFieldGoal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>isFieldGoal</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>side</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[side]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>side</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>personIdsFilter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[personIdsFilter]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>personIdsFilter</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>teamId</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamTricode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamTricode]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>teamTricode</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>descriptor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[descriptor]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>descriptor</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumpBallRecoveredName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jumpBallRecoveredName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>jumpBallRecoveredName</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumpBallRecoverdPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jumpBallRecoverdPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>jumpBallRecoverdPersonId</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>playerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[playerName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>playerName</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>playerNameI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[playerNameI]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>playerNameI</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumpBallWonPlayerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jumpBallWonPlayerName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>jumpBallWonPlayerName</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumpBallWonPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jumpBallWonPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>jumpBallWonPersonId</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumpBallLostPlayerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jumpBallLostPlayerName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>jumpBallLostPlayerName</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumpBallLostPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jumpBallLostPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>jumpBallLostPersonId</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shotDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[shotDistance]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>shotDistance</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shotResult</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shotResult]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>shotResult</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pointsTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pointsTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>pointsTotal</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assistPlayerNameInitial</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[assistPlayerNameInitial]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>assistPlayerNameInitial</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assistPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[assistPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>assistPersonId</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assistTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[assistTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>assistTotal</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shotActionNumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[shotActionNumber]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>shotActionNumber</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reboundTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[reboundTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>reboundTotal</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reboundDefensiveTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[reboundDefensiveTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>reboundDefensiveTotal</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reboundOffensiveTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[reboundOffensiveTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>reboundOffensiveTotal</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turnoverTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[turnoverTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>turnoverTotal</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stealPlayerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stealPlayerName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>stealPlayerName</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stealPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stealPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>stealPersonId</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>officialId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[officialId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>officialId</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foulPersonalTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[foulPersonalTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>foulPersonalTotal</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foulTechnicalTotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[foulTechnicalTotal]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>foulTechnicalTotal</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foulDrawnPlayerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[foulDrawnPlayerName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>foulDrawnPlayerName</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foulDrawnPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[foulDrawnPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>foulDrawnPersonId</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blockPlayerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[blockPlayerName]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>blockPlayerName</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blockPersonId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[blockPersonId]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>blockPersonId</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>value</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[value]</local-name>
+            <parent-name>[2021-07-15_mil-vs-phoenix_pbp.csv]</parent-name>
+            <remote-alias>value</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2021-07-15_mil-vs-phoenix_pbp.csv' datatype='table' name='[__tableau_internal_object_id__].[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]' role='measure' type='quantitative' />
+      <column caption='Action Number' datatype='integer' name='[actionNumber]' role='dimension' type='ordinal' />
+      <column caption='Action Type' datatype='string' name='[actionType]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;instantreplay&quot;' value='instant replay' />
+        </aliases>
+      </column>
+      <column caption='Assist Person Id' datatype='real' name='[assistPersonId]' role='dimension' type='ordinal' />
+      <column caption='Assist Player Name Initial' datatype='string' name='[assistPlayerNameInitial]' role='dimension' type='nominal' />
+      <column caption='Assist Total' datatype='real' name='[assistTotal]' role='measure' type='quantitative' />
+      <column caption='Block Person Id' datatype='real' name='[blockPersonId]' role='dimension' type='ordinal' />
+      <column caption='Block Player Name' datatype='string' name='[blockPlayerName]' role='dimension' type='nominal' />
+      <column caption='Clock' datatype='string' name='[clock]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Descriptor' datatype='string' name='[descriptor]' role='dimension' type='nominal' />
+      <column caption='Edited' datatype='datetime' name='[edited]' role='dimension' type='ordinal' />
+      <column caption='Foul Drawn Person Id' datatype='real' name='[foulDrawnPersonId]' role='dimension' type='ordinal' />
+      <column caption='Foul Drawn Player Name' datatype='string' name='[foulDrawnPlayerName]' role='dimension' type='nominal' />
+      <column caption='Foul Personal Total' datatype='real' name='[foulPersonalTotal]' role='measure' type='quantitative' />
+      <column caption='Foul Technical Total' datatype='real' name='[foulTechnicalTotal]' role='measure' type='quantitative' />
+      <column caption='Is Field Goal' datatype='integer' name='[isFieldGoal]' role='measure' type='quantitative' />
+      <column caption='Jump Ball Lost Person Id' datatype='real' name='[jumpBallLostPersonId]' role='dimension' type='ordinal' />
+      <column caption='Jump Ball Lost Player Name' datatype='string' name='[jumpBallLostPlayerName]' role='dimension' type='nominal' />
+      <column caption='Jump Ball Recoverd Person Id' datatype='real' name='[jumpBallRecoverdPersonId]' role='dimension' type='ordinal' />
+      <column caption='Jump Ball Recovered Name' datatype='string' name='[jumpBallRecoveredName]' role='dimension' type='nominal' />
+      <column caption='Jump Ball Won Person Id' datatype='real' name='[jumpBallWonPersonId]' role='dimension' type='ordinal' />
+      <column caption='Jump Ball Won Player Name' datatype='string' name='[jumpBallWonPlayerName]' role='dimension' type='nominal' />
+      <column caption='Official Id' datatype='real' name='[officialId]' role='dimension' type='ordinal' />
+      <column caption='Order Number' datatype='integer' name='[orderNumber]' role='dimension' type='ordinal' />
+      <column caption='Period Type' datatype='string' name='[periodType]' role='dimension' type='nominal' />
+      <column caption='Period' datatype='integer' name='[period]' role='measure' type='quantitative' />
+      <column caption='Person Id' datatype='integer' name='[personId]' role='dimension' type='ordinal' />
+      <column caption='Person Ids Filter' datatype='string' name='[personIdsFilter]' role='dimension' type='nominal' />
+      <column caption='Player Name I' datatype='string' name='[playerNameI]' role='dimension' type='nominal' />
+      <column caption='Player Name' datatype='string' name='[playerName]' role='dimension' type='nominal' />
+      <column caption='Points Total' datatype='real' name='[pointsTotal]' role='measure' type='quantitative' />
+      <column caption='Possession' datatype='integer' name='[possession]' role='measure' type='quantitative' />
+      <column caption='Qualifiers' datatype='string' name='[qualifiers]' role='dimension' type='nominal' />
+      <column caption='Rebound Defensive Total' datatype='real' name='[reboundDefensiveTotal]' role='measure' type='quantitative' />
+      <column caption='Rebound Offensive Total' datatype='real' name='[reboundOffensiveTotal]' role='measure' type='quantitative' />
+      <column caption='Rebound Total' datatype='real' name='[reboundTotal]' role='measure' type='quantitative' />
+      <column caption='Score Away' datatype='integer' name='[scoreAway]' role='measure' type='quantitative' />
+      <column caption='Score Home' datatype='integer' name='[scoreHome]' role='measure' type='quantitative' />
+      <column caption='Shot Action Number' datatype='real' name='[shotActionNumber]' role='dimension' type='ordinal' />
+      <column caption='Shot Distance' datatype='real' name='[shotDistance]' role='measure' type='quantitative' />
+      <column caption='Shot Result' datatype='string' name='[shotResult]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='%null%' value='N/A' />
+        </aliases>
+      </column>
+      <column caption='Side' datatype='string' name='[side]' role='dimension' type='nominal' />
+      <column caption='Steal Person Id' datatype='real' name='[stealPersonId]' role='dimension' type='ordinal' />
+      <column caption='Steal Player Name' datatype='string' name='[stealPlayerName]' role='dimension' type='nominal' />
+      <column caption='Sub Type' datatype='string' name='[subType]' role='dimension' type='nominal' />
+      <column caption='Team Id' datatype='real' name='[teamId]' role='dimension' type='ordinal' />
+      <column caption='Team Tricode' datatype='string' name='[teamTricode]' role='dimension' type='nominal' />
+      <column caption='Time Actual' datatype='datetime' name='[timeActual]' role='dimension' type='ordinal' />
+      <column caption='Turnover Total' datatype='real' name='[turnoverTotal]' role='measure' type='quantitative' />
+      <column caption='Value' datatype='string' name='[value]' role='dimension' type='nominal' />
+      <column caption='X Legacy' datatype='real' name='[xLegacy]' role='measure' type='quantitative' />
+      <column caption='X' datatype='real' name='[x]' role='measure' type='quantitative' />
+      <column caption='Y Legacy' datatype='real' name='[yLegacy]' role='measure' type='quantitative' />
+      <column caption='Y' datatype='real' name='[y]' role='measure' type='quantitative' />
+      <column-instance column='[shotResult]' derivation='None' name='[none:shotResult:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:shotResult:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Made&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Missed&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2021-07-15_mil-vs-phoenix_pbp.csv' id='2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC'>
+            <properties context=''>
+              <relation connection='textscan.1wjodti1i3dry40zstp930boh1mm' name='2021-07-15_mil-vs-phoenix_pbp.csv' table='[2021-07-15_mil-vs-phoenix_pbp#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='actionNumber' ordinal='1' />
+                  <column datatype='string' name='clock' ordinal='2' />
+                  <column datatype='datetime' name='timeActual' ordinal='3' />
+                  <column datatype='integer' name='period' ordinal='4' />
+                  <column datatype='string' name='periodType' ordinal='5' />
+                  <column datatype='string' name='actionType' ordinal='6' />
+                  <column datatype='string' name='subType' ordinal='7' />
+                  <column datatype='string' name='qualifiers' ordinal='8' />
+                  <column datatype='integer' name='personId' ordinal='9' />
+                  <column datatype='real' name='x' ordinal='10' />
+                  <column datatype='real' name='y' ordinal='11' />
+                  <column datatype='integer' name='possession' ordinal='12' />
+                  <column datatype='integer' name='scoreHome' ordinal='13' />
+                  <column datatype='integer' name='scoreAway' ordinal='14' />
+                  <column datatype='datetime' name='edited' ordinal='15' />
+                  <column datatype='integer' name='orderNumber' ordinal='16' />
+                  <column datatype='real' name='xLegacy' ordinal='17' />
+                  <column datatype='real' name='yLegacy' ordinal='18' />
+                  <column datatype='integer' name='isFieldGoal' ordinal='19' />
+                  <column datatype='string' name='side' ordinal='20' />
+                  <column datatype='string' name='description' ordinal='21' />
+                  <column datatype='string' name='personIdsFilter' ordinal='22' />
+                  <column datatype='real' name='teamId' ordinal='23' />
+                  <column datatype='string' name='teamTricode' ordinal='24' />
+                  <column datatype='string' name='descriptor' ordinal='25' />
+                  <column datatype='string' name='jumpBallRecoveredName' ordinal='26' />
+                  <column datatype='real' name='jumpBallRecoverdPersonId' ordinal='27' />
+                  <column datatype='string' name='playerName' ordinal='28' />
+                  <column datatype='string' name='playerNameI' ordinal='29' />
+                  <column datatype='string' name='jumpBallWonPlayerName' ordinal='30' />
+                  <column datatype='real' name='jumpBallWonPersonId' ordinal='31' />
+                  <column datatype='string' name='jumpBallLostPlayerName' ordinal='32' />
+                  <column datatype='real' name='jumpBallLostPersonId' ordinal='33' />
+                  <column datatype='real' name='shotDistance' ordinal='34' />
+                  <column datatype='string' name='shotResult' ordinal='35' />
+                  <column datatype='real' name='pointsTotal' ordinal='36' />
+                  <column datatype='string' name='assistPlayerNameInitial' ordinal='37' />
+                  <column datatype='real' name='assistPersonId' ordinal='38' />
+                  <column datatype='real' name='assistTotal' ordinal='39' />
+                  <column datatype='real' name='shotActionNumber' ordinal='40' />
+                  <column datatype='real' name='reboundTotal' ordinal='41' />
+                  <column datatype='real' name='reboundDefensiveTotal' ordinal='42' />
+                  <column datatype='real' name='reboundOffensiveTotal' ordinal='43' />
+                  <column datatype='real' name='turnoverTotal' ordinal='44' />
+                  <column datatype='string' name='stealPlayerName' ordinal='45' />
+                  <column datatype='real' name='stealPersonId' ordinal='46' />
+                  <column datatype='real' name='officialId' ordinal='47' />
+                  <column datatype='real' name='foulPersonalTotal' ordinal='48' />
+                  <column datatype='real' name='foulTechnicalTotal' ordinal='49' />
+                  <column datatype='string' name='foulDrawnPlayerName' ordinal='50' />
+                  <column datatype='real' name='foulDrawnPersonId' ordinal='51' />
+                  <column datatype='string' name='blockPlayerName' ordinal='52' />
+                  <column datatype='real' name='blockPersonId' ordinal='53' />
+                  <column datatype='string' name='value' ordinal='54' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Play by Play Events'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2021-07-15_mil-vs-phoenix_pbp' name='federated.0mlfw7q0av4r8112u0umu0mcslp3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mlfw7q0av4r8112u0umu0mcslp3'>
+            <column caption='Action Type' datatype='string' name='[actionType]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;instantreplay&quot;' value='instant replay' />
+              </aliases>
+            </column>
+            <column-instance column='[actionType]' derivation='None' name='[none:actionType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[shotResult]' derivation='None' name='[none:shotResult:nk]' pivot='key' type='nominal' />
+            <column-instance column='[x]' derivation='None' name='[none:x:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[y]' derivation='None' name='[none:y:qk]' pivot='key' type='quantitative' />
+            <column caption='Shot Result' datatype='string' name='[shotResult]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='N/A' />
+              </aliases>
+            </column>
+            <column caption='X' datatype='real' name='[x]' role='measure' type='quantitative' />
+            <column caption='Y' datatype='real' name='[y]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]' />
+              <shape column='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:y:qk]</rows>
+        <cols>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:x:qk]</cols>
+      </table>
+      <simple-id uuid='{059A03F1-A8CF-4B15-8E12-41543782F781}' />
+    </worksheet>
+    <worksheet name='Summary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2021-07-15_mil-vs-phoenix_pbp' name='federated.0mlfw7q0av4r8112u0umu0mcslp3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mlfw7q0av4r8112u0umu0mcslp3'>
+            <_.fcp.ObjectModelTableType.true...column caption='2021-07-15_mil-vs-phoenix_pbp.csv' datatype='table' name='[__tableau_internal_object_id__].[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC:qk]' pivot='key' type='quantitative' />
+            <column caption='Action Type' datatype='string' name='[actionType]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;instantreplay&quot;' value='instant replay' />
+              </aliases>
+            </column>
+            <column-instance column='[actionType]' derivation='None' name='[none:actionType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[shotResult]' derivation='None' name='[none:shotResult:nk]' pivot='key' type='nominal' />
+            <column caption='Shot Result' datatype='string' name='[shotResult]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='N/A' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='2021-07-15_mil-vs-phoenix_pbp.csv' datatype='integer' name='[__tableau_internal_object_id__].[2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]' value='60' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[__tableau_internal_object_id__].[cnt:2021-07-15_mil-vs-phoenix_pbp.csv_220D1B522D51479E8CF258DB54B022CC:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]</rows>
+        <cols>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]</cols>
+      </table>
+      <simple-id uuid='{93D9E9A0-04E9-4F71-AAB3-491AAFD08767}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='1100' maxwidth='1600' minheight='1100' minwidth='1600' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='78546' id='8' param='horz' type-v2='layout-flow' w='99000' x='500' y='20727'>
+            <zone h='78546' id='6' type-v2='layout-basic' w='89000' x='500' y='20727'>
+              <zone h='78546' id='5' name='Play by Play Events' w='89000' x='500' y='20727'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='78546' id='12' is-fixed='true' type-v2='layout-basic' w='10000' x='89500' y='20727'>
+              <zone h='78546' id='13' param='vert' type-v2='layout-flow' w='10000' x='89500' y='20727'>
+                <zone h='39454' id='9' name='Play by Play Events' pane-specification-id='0' param='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]' type-v2='shape' w='10000' x='89500' y='20727'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='20000' id='3' name='Summary' w='99000' x='500' y='727'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='9182' id='10' leg-item-layout='horz' name='Play by Play Events' pane-specification-id='0' param='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]' type-v2='color' w='25688' x='21125' y='22818' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98546' id='16' param='vert' type-v2='layout-flow' w='99000' x='500' y='727'>
+                <zone fixed-size='212' h='20000' id='3' is-fixed='true' name='Summary' w='99000' x='500' y='727'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='78546' id='5' is-fixed='true' name='Play by Play Events' w='89000' x='500' y='20727'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='39454' id='9' name='Play by Play Events' pane-specification-id='0' param='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]' type-v2='shape' w='10000' x='89500' y='20727'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9182' id='10' leg-item-layout='horz' name='Play by Play Events' pane-specification-id='0' param='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]' type-v2='color' w='25688' x='21125' y='22818'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{92232B47-C891-404D-92F4-01A8B4911A2D}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Play by Play Events'>
+      <cards>
+        <edge name='left'>
+          <strip size='192'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='36'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='192'>
+            <card pane-specification-id='0' param='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]' type='shape' />
+            <card pane-specification-id='0' param='[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]</field>
+            <field>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E1FE79F2-C6DA-4DE6-A7B0-8A28EDCC8057}' />
+    </window>
+    <window class='worksheet' name='Summary'>
+      <cards>
+        <edge name='left'>
+          <strip size='192'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='36'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:actionType:nk]</field>
+            <field>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{03F65D08-97C1-415F-82BB-0A6D1D3A1567}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Play by Play Events'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0mlfw7q0av4r8112u0umu0mcslp3].[none:shotResult:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Summary'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{40AEBA0A-F9EC-4D74-9242-651C3E671BA0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Play by Play Events' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='159' name='Summary' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAACfCAYAAACvBNYlAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAWg0lEQVR4nO3de1hU1f7H8Xc0AwFCASaSBh7LyMsxdUZUVAQvaJkH07wkmqVGRoppmpkk
+      UidNpUgtj6gpFJQ3KjUpL6GgouKgYlai/UzQRFFAhwBlRuf3B4jcvBQjiPv7eh6eR/Zes2Zt
+      3J9Za9/W3GcymUwIoVAWtd0AIWqTBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoE
+      QCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAo
+      mgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoE
+      QCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAomgRAKJoEQCiaBEAo
+      mgRAKJqqthsgzK2ILN23fLroC3b8dpY8A6jtmtD2P4G8O747Lv/ofzyREO0kNrqPJzZmJG7m
+      bvI/VsRJ3XdsXPkjG1J+42yeAVBj59ycri+O542BbXG8xfZKD3BPyeb7N3rwzNh5xB0q3vkB
+      DHknSI55iwHjYzlbuw00sz0sGzuXZdsPlez8AAbyzh4ibt4r9B0dQ/otapAA3FP+IvtcIdbN
+      nmF8+Erik3TodHtIXDMbv3+pMeyLZO2vtd1Gc1JRr3nxtv4Yn4ROp0OnSyJ+5Wz6PgqGX+LY
+      fqsEmMQ95JRp109ppstVrLm4Psik0WhMMxJKFpyINA3TaEzDItNMGZtnmYZ7dzRpNBpTF7/X
+      TP/blW0ylBYbZtJoNFX8DDNFnqihzfrbDKbUT541aTQvmqJPlSy6wfbKMcA9pRGe3atarke3
+      52fAlUcall9zfPFInjMYSn8vPJXMsqAXyIvYyBRNHds9ivSczzhK/JqPWBh7noZ+U+jXqHyR
+      itsrPcA9zpC93xQ5ztek0WhMvjMSTBevrSj5RPQZMde0+djF4l7j8llT4tznTR01GpNm0kbT
+      X6W1JJhmaDQmzbBI0934oZ8wo3zv1MXvNdPHmzPK94Q32F45BrhnGclJCmeE3yss3J2NU6dp
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
