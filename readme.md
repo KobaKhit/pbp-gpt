@@ -1,4 +1,4 @@
-# Custom GPT to Analyize PBP Data
+# Custom GPT to Analyze PBP Data
 
 Building custom GPT to analyzie NBA PBP data.
 
